@@ -8,4 +8,5 @@ async function run(){
     let a = await readFile('./1.txt', 'utf-8');
     console.log(a);
 }
+
 run();
