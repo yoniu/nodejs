@@ -14,7 +14,7 @@ app.on("request", (req, res) => {
 
     req.on("end", () => {
         let postParam = querystring.parse(postParams);
-        console.log();
+        console.log(postParam);
     });
 
     res.end("<h1>Hello World</h1>");
